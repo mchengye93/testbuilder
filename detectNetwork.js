@@ -62,7 +62,7 @@ var detectNetwork = function(cardNumber) {
   }
 
   else if (checkSwitch(cardNumber)){
-
+    return 'Switch';
   }
 
 };
